@@ -28,10 +28,17 @@
 
 ## Project setup
 
+to get the db running
+
+
 ```bash
 $ npm install
 ```
+```bash
+$ docker compose up -f csrd-reporting/docker/docker-compose.local.yaml -d
+npx prisma migrate dev --name init
 
+```
 ## Compile and run the project
 
 ```bash
