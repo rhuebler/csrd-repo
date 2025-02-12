@@ -8,7 +8,7 @@ The example code is for the create IRO endpoint. I optef for a local postgres da
 
 the System architecture diagram is a rough overview, obviously there are huge gaps in my knowledge of the problem and in reality I would probably spend more time researching it, but here I made a hard cut after 4hs of working on it where most of time went into tresearch. 
 
-
+as you can see the diagram I am toying a bit with the idea of breaking off individual components into seperate apllicacions so that these could be deployed seperately, maybe with kubernetes...
 
 
 ### Opens Questions
@@ -26,6 +26,9 @@ how much traffic do we suspect?
 can we share the database beween instances? do I need a way to evolve databse schemes
 
 how do people gain access to the applicacion is there vetting process?
+
+how do I decide internally who has access to which data, I need a structure to map users to data to I need to know which organization a user belongs to
+
 
 ### System Architecture diagrams
 see IRO.drawio.html
